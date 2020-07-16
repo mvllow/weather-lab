@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary: #1c64f2;
+    --fg: #343f2f;
+    --label: #666;
+    --overlay: #f4f5f7;
+    --base: #fefefe;
+    --border: rgba(0, 0, 0, 0);
+    --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.useDarkMode:root {
+    --primary: #88d0aa;
+    --fg: #fbfbfb;
+    --label: #75767a;
+    --overlay: #222429;
+    --base: #141419;
+    --border: #2d2f32;
+    --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0), 0 4px 6px -2px rgba(0, 0, 0, 0);
+}
