@@ -19,6 +19,12 @@ You may learn some of the following :)
 
 ## Getting started
 
+```sh
+$ git clone git@github.com:mvllow/weather-lab.git
+$ cd weather-lab
+$ yarn && yarn dev
+```
+
 Visit [OpenWeather](https://home.openweathermap.org/api_keys) to generate an API key.
 
 Rename `.env.example` to `.env.local`, using your API key.
